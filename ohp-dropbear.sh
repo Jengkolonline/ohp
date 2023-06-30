@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="PelangiSenja"
+GitUser="Jengkolonline"
 #Direct Proxy Squid For OpenVPN TCP
 RED='\e[1;31m'
 GREEN='\e[0;32m'
@@ -65,7 +65,7 @@ cd
 cat > /etc/systemd/system/ohp.service <<END
 [Unit]
 Description=Direct Squid Proxy For OpenVPN TCP
-Documentation=https://t.me/pelangisenja
+Documentation=https://t.me/JengkolTunneling12
 Wants=network.target
 After=network.target
 
