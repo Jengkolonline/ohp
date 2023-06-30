@@ -7,7 +7,7 @@ BLUE='\e[0;34m'
 NC='\e[0m'
 MYIP=$(wget -qO- https://icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
-domain=$(cat /etc/v2ray/domain)
+domain=$(cat /etc/xray/domain)
 #Update Repository VPS
 clear
 apt update 
